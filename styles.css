@@ -1,0 +1,26 @@
+button {
+    background: #DCF6FE;
+    border-radius: 4px;
+    border-color: black;
+}
+
+button:hover {
+    background: #F5FEDC;
+    cursor: pointer;
+}
+
+form {
+    background: #EEE3F7;
+    margin: 10px;
+}
+
+a {
+    background: #DCF6FE;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: black;
+}
+
+a:hover {
+    background: #F5FEDC;
+}
