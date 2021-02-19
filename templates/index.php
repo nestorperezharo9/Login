@@ -8,24 +8,24 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>LOGIN APP</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles/styles.css">
     </head>
     <body>
         <?php
             echo '<form method="POST" action="login.php">
                     <fieldset>
                         <legend>INICIAR SESIÓN</legend>
-                        <label>Username</label>
+                        <center><label>Username</label>
                         <input type="text" name="username" pattern="[a-zA-Z0-9]+" required /> <br><br>
 		
                         <label>Password</label>
                         <input type="password" name="password" required /> <br><br>
 		
-                        <button name="login" value="login">Iniciar sesión</button>
+                        <button name="login" value="login">Iniciar sesión</button></center>
                     </fieldset>
                   </form>';
             
-            echo '<p> No tengo cuenta, <a href="register.php">Registrarme</a> </p>';
+            echo '<center><p> No tengo cuenta, <a href="register.php">Registrarme</a> </p></center>';
         ?>
     </body>
 </html>

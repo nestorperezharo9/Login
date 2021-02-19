@@ -1,0 +1,46 @@
+body {
+    background-color: #F5FEDC;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+button {
+    background: #DCF6FE;
+    border-radius: 4px;
+    border-color: black;
+}
+
+button:hover {
+    background: #F5FEDC;
+    cursor: pointer;
+}
+
+form {
+    margin: 10px;
+    padding: 60px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: #D1F1FD;
+    border-color: black;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+a {
+    background: #DCF6FE;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: black;
+}
+
+a:hover {
+    background: #FCD9FE;
+}
