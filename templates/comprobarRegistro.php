@@ -10,7 +10,7 @@
     }
     
     function comprobarRegistro ($u, $p) {
-        $db = new PDO("sqlite:../user.db");
+        $db = new PDO("sqlite:./user.db");
         foreach($db -> query("SELECT * FROM users") as $fila) {
             if($u == $fila[1]) {
                 return false;

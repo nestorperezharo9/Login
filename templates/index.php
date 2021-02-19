@@ -20,7 +20,7 @@ and open the template in the editor.
 		
                         <label>Password</label>
                         <input type="password" name="password" required /> <br><br>
-		
+                        
                         <button name="login" value="login">Iniciar sesión</button></center>
                     </fieldset>
                   </form>';
